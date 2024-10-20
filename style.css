@@ -1,0 +1,114 @@
+/* Basic styling for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+/* Header styling */
+header {
+    background-color: #1e1e1e; /* Slightly lighter dark color for header */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #333333; /* Darker background on hover */
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter dark color for main content */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Image and iframe styling */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Dark mode link color */
+a {
+    color: #BB86FC; /* A light purple color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Form input styling */
+input, textarea {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #555555;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    margin-top: 10px;
+}
+
+/* Form input focus styling */
+input:focus, textarea:focus {
+    border-color: #BB86FC;
+    outline: none;
+}
