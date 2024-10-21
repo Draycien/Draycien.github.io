@@ -1,21 +1,21 @@
-/* Basic styling for the entire website */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background color */
-    color: #e0e0e0; /* Light text color for contrast */
+    background-color: #121212; 
+    color: #e0e0e0; 
 }
 
-/* Header styling */
+
 header {
-    background-color: #1e1e1e; /* Slightly lighter dark color for header */
+    background-color: #1e1e1e; 
     color: #ffffff;
     padding: 1rem;
     text-align: center;
 }
 
-/* Navigation menu styling */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -37,21 +37,21 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    background-color: #333333; /* Darker background on hover */
+    background-color: #333333; 
     border-radius: 5px;
 }
 
-/* Main content styling */
+
 main {
     padding: 20px;
-    background-color: #1e1e1e; /* Slightly lighter dark color for main content */
+    background-color: #1e1e1e; 
     margin: 20px auto;
     max-width: 800px;
     border-radius: 10px;
     text-align: center;
 }
 
-/* Button styling */
+
 button {
     padding: 10px 20px;
     background-color: #333333;
@@ -67,7 +67,7 @@ button:hover {
     background-color: #555555;
 }
 
-/* Footer styling */
+
 footer {
     background-color: #1e1e1e;
     color: #ffffff;
@@ -78,7 +78,7 @@ footer {
     width: 100%;
 }
 
-/* Image and iframe styling */
+
 img, iframe {
     max-width: 100%;
     height: auto;
@@ -86,9 +86,9 @@ img, iframe {
     margin-top: 10px;
 }
 
-/* Dark mode link color */
+
 a {
-    color: #BB86FC; /* A light purple color */
+    color: #BB86FC;
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ a:hover {
     color: #ffffff;
 }
 
-/* Form input styling */
+
 input, textarea {
     background-color: #333333;
     color: #e0e0e0;
@@ -107,7 +107,7 @@ input, textarea {
     margin-top: 10px;
 }
 
-/* Form input focus styling */
+
 input:focus, textarea:focus {
     border-color: #BB86FC;
     outline: none;
